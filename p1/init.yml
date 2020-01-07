@@ -1,0 +1,32 @@
+archive: data.zip
+checker: checker.py
+output_prefix_length: 0
+test_cases:
+- points: 100
+  batched:
+  - {in: cifar_0.in}
+  - {in: cifar_1.in}
+  - {in: cifar_2.in}
+  - {in: cifar_3.in}
+  - {in: cifar_4.in}
+  - {in: cifar_5.in}
+  - {in: cifar_1.in}
+  - {in: CircleSquare_100_100.in}
+  - {in: CircleSquare_2500_2500.in}
+  - {in: CircleSquare_900_900.in}
+  - {in: mnist_0.in}
+  - {in: mnist_1.in}
+  - {in: mnist_2.in}
+  - {in: mnist_3.in}
+  - {in: mnist_4.in}
+  - {in: mnist_5.in}
+  - {in: mnist_6.in}
+  - {in: mnist_7.in}
+  - {in: mnist_8.in}
+  - {in: mnist_9.in}
+  - {in: NLP1.in}
+  - {in: NLP2.in}
+  - {in: NLP3.in}
+  - {in: NLP4.in}
+  - {in: NLP5.in}
+
