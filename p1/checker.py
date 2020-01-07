@@ -22,6 +22,6 @@ def check(process_output, judge_output, judge_input, point_value, execution_time
       rhs[v] -= w
     assert sum(lhs) == 0
     assert sum(rhs) == 0
-  except Exception as e:
-    return CheckerResult(False, 0, "{}".format(e))
+  except:
+    return False
   return True
